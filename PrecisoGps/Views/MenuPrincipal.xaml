@@ -4,8 +4,7 @@
              x:Class="PrecisoGps.Views.MenuPrincipal"
              Title="Menú Principal"
              NavigationPage.HasNavigationBar="False">
-    <!--Comentarios del diseño  -->
-    <!-- diseño del fondo degradado -->
+    <!-- Fondo degradado -->
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
             <GradientStop Color="#001F3F" Offset="0.0" />
@@ -26,7 +25,7 @@
 
             <Style x:Key="ButtonTextStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="White" />
-                <Setter Property="FontSize" Value="14" />
+                <Setter Property="FontSize" Value="16" />
                 <Setter Property="FontAttributes" Value="Bold" />
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="VerticalOptions" Value="Center" />
@@ -49,8 +48,7 @@
 
         <!-- Cabecera con logo y título -->
         <StackLayout Grid.Row="1" Margin="0,20,0,40">
-            <!-- Emoji en lugar del logo -->
-            <Image Source="http://precisogps.com/img/precisoimg/logoPreciso.jpg"
+            <Image Source="icon.png"
                 WidthRequest="90"
                 HeightRequest="90"
                 HorizontalOptions="Center" />
@@ -67,137 +65,132 @@
                    HorizontalOptions="Center" />
         </StackLayout>
 
-        <!-- Grid principal con los 4 botones estilizados -->
-        <Grid Grid.Row="2" 
-              RowSpacing="20" 
-              ColumnSpacing="20" 
-              Margin="0,10,0,10"
-              VerticalOptions="Center">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+        <!-- 3 Botones verticales -->
+        <StackLayout Grid.Row="2" 
+                     Spacing="15" 
+                     VerticalOptions="Center"
+                     Margin="15,0">
 
-            <!-- Botón 1: Iniciar Sesión (con emoji y sombra) -->
-            <Frame Grid.Row="0" Grid.Column="0"
-                   BackgroundColor="#26FFFFFF"
+            <!-- Botón 1: Gestión de Conductores -->
+            <Frame BackgroundColor="#3498DB"
                    BorderColor="#FFFFFF"
                    CornerRadius="15"
                    HasShadow="True"
                    Padding="0"
-                   Margin="5">
+                   HeightRequest="100">
                 <Grid Padding="5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
 
-                    <!-- Emoji de cerrar sesión -->
-                    <Label Grid.Row="0" 
-                           Text="🔐" 
-                           Style="{StaticResource EmojiStyle}" />
+                    <!-- Emoji con círculo de fondo -->
+                    <Frame Grid.Column="0"
+                           BackgroundColor="#FFFFFF30" 
+                           CornerRadius="50"
+                           HeightRequest="70" 
+                           WidthRequest="70"
+                           Margin="15,0" 
+                           Padding="0"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center">
+                        <Label Text="🚗" 
+                               FontSize="35"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                    </Frame>
 
-                    <Label Grid.Row="1" 
-                           Text="INICIAR SESIÓN" 
-                           Style="{StaticResource ButtonTextStyle}" />
-
-                    <Button Grid.RowSpan="2"
-                            BackgroundColor="Transparent"
-                            Clicked="OnIniciarSesionClicked" />
-                </Grid>
-            </Frame>
-
-            <!-- Botón 2: Gestión de Conductores -->
-            <!--<Frame Grid.Row="0" Grid.Column="1"
-                   BackgroundColor="#3498DB"
-                   BorderColor="#FFFFFF"
-                   CornerRadius="15"
-                   HasShadow="True"
-                   Padding="0"
-                   Margin="5">
-                <Grid Padding="5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-
-                    --><!-- Emoji de conductor --><!--
-                    <Label Grid.Row="0" 
-                           Text="🚗" 
-                           Style="{StaticResource EmojiStyle}" />
-
-                    <Label Grid.Row="1" 
+                    <Label Grid.Column="1" 
                            Text="GESTIÓN DE CONDUCTORES" 
-                           Style="{StaticResource ButtonTextStyle}" />
+                           Style="{StaticResource ButtonTextStyle}"
+                           HorizontalOptions="Start" />
 
-                    <Button Grid.RowSpan="2"
+                    <Button Grid.ColumnSpan="2"
                             BackgroundColor="Transparent"
                             Clicked="OnAsignacionConductorClicked" />
                 </Grid>
-            </Frame>-->
+            </Frame>
 
-            <!-- Botón 3: Reportes Recaudo -->
-            <Frame Grid.Row="0" Grid.Column="1"
-                   BackgroundColor="#2ECC71"
+            <!-- Botón 2: Reportes Recaudo -->
+            <Frame BackgroundColor="#2ECC71"
                    BorderColor="#FFFFFF"
                    CornerRadius="15"
                    HasShadow="True"
                    Padding="0"
-                   Margin="5">
+                   HeightRequest="100">
                 <Grid Padding="5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
 
-                    <!-- Emoji de contador/reportes -->
-                    <Label Grid.Row="0" 
-                           Text="📊" 
-                           Style="{StaticResource EmojiStyle}" />
+                    <!-- Emoji con círculo de fondo -->
+                    <Frame Grid.Column="0"
+                           BackgroundColor="#FFFFFF30" 
+                           CornerRadius="50"
+                           HeightRequest="70" 
+                           WidthRequest="70"
+                           Margin="15,0" 
+                           Padding="0"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center">
+                        <Label Text="📊" 
+                               FontSize="35"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                    </Frame>
 
-                    <Label Grid.Row="1" 
+                    <Label Grid.Column="1" 
                            Text="REPORTES RECAUDO" 
-                           Style="{StaticResource ButtonTextStyle}" />
+                           Style="{StaticResource ButtonTextStyle}"
+                           HorizontalOptions="Start" />
 
-                    <Button Grid.RowSpan="2"
+                    <Button Grid.ColumnSpan="2"
                             BackgroundColor="Transparent"
                             Clicked="OnContadoresClicked" />
                 </Grid>
             </Frame>
 
-            <!-- Botón 4: Registrar Recaudo Diario -->
-            <Frame Grid.Row="1" Grid.Column="0"
-                   BackgroundColor="#9B59B6"
+            <!-- Botón 3: Registrar Recaudo Diario -->
+            <Frame BackgroundColor="#9B59B6"
                    BorderColor="#FFFFFF"
                    CornerRadius="15"
                    HasShadow="True"
                    Padding="0"
-                   Margin="5">
+                   HeightRequest="100">
                 <Grid Padding="5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
 
-                    <!-- Emoji de registrar ingreso -->
-                    <Label Grid.Row="0" 
-                           Text="💰" 
-                           Style="{StaticResource EmojiStyle}" />
+                    <!-- Emoji con círculo de fondo -->
+                    <Frame Grid.Column="0"
+                           BackgroundColor="#FFFFFF30" 
+                           CornerRadius="50"
+                           HeightRequest="70" 
+                           WidthRequest="70"
+                           Margin="15,0" 
+                           Padding="0"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center">
+                        <Label Text="💰" 
+                               FontSize="35"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                    </Frame>
 
-                    <Label Grid.Row="1" 
+                    <Label Grid.Column="1" 
                            Text="REGISTRAR RECAUDO DIARIO" 
-                           Style="{StaticResource ButtonTextStyle}" />
+                           Style="{StaticResource ButtonTextStyle}"
+                           HorizontalOptions="Start" />
 
-                    <Button Grid.RowSpan="2"
+                    <Button Grid.ColumnSpan="2"
                             BackgroundColor="Transparent"
                             Clicked="OnCrearReporteClicked" />
                 </Grid>
             </Frame>
-        </Grid>
+        </StackLayout>
 
         <!-- Pie de página -->
         <Label Grid.Row="3" 

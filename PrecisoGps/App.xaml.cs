@@ -20,29 +20,42 @@ namespace PrecisoGps
             MainPage = new NavigationPage(new MenuPrincipal());
         }
 
+        //protected async override void OnStart()
+        //{
+        //    //string token = await SecureStorage.GetAsync("user_token");
+        //    //if (!string.IsNullOrEmpty(token))
+        //    //{
+        //    //    var isValid = await new LoginService().ValidarToken(token);
+
+        //    //    if (isValid)
+        //    //    {
+        //    //        MainPage = new NavigationPage(new MenuPrincipal());
+        //    //    }
+        //    //    else
+        //    //    {
+        //    //        MainPage = new NavigationPage(new LoginPage());
+        //    //    }
+        //    //}
+        //    //else
+        //    //{
+        //    //    MainPage = new NavigationPage(new LoginPage());
+        //    //}
+
+        //}
         protected async override void OnStart()
         {
-            //string token = await SecureStorage.GetAsync("user_token");
-            //if (!string.IsNullOrEmpty(token))
-            //{
-            //    var isValid = await new LoginService().ValidarToken(token);
-
-            //    if (isValid)
-            //    {
-            //        MainPage = new NavigationPage(new MenuPrincipal());
-            //    }
-            //    else
-            //    {
-            //        MainPage = new NavigationPage(new LoginPage());
-            //    }
-            //}
-            //else
-            //{
-            //    MainPage = new NavigationPage(new LoginPage());
-            //}
-
+            string token = await SecureStorage.GetAsync("user_token");
+            if (!string.IsNullOrEmpty(token))
+            {
+                var isValid = await new LoginService().ValidarToken(token);
+                if (isValid)
+                {
+                    string perfil = await SecureStorage.GetAsync("user_perfil");
+                    MenuPrincipal.UsuarioLogueado = true;
+                    MenuPrincipal.PerfilUsuario = perfil;
+                }
+            }
         }
-
         protected override void OnSleep()
         {
         }

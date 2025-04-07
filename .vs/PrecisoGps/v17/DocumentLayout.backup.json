@@ -1,249 +1,249 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\gestionhojapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\gestionhojapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\menuprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\menuprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\menuprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\scanqrpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\scanqrpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\services\\hojastrabajoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\services\\hojastrabajoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\services\\conductorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\services\\conductorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\hojastrabajoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\hojastrabajoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\reportechoferviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\reportechoferviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\seleccionarfechaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\seleccionarfechaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\gestionhojapage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\gestionhojapage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\gestionhojaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\gestionhojaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\responses\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\behaviors\\decimalentrybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\behaviors\\decimalentrybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\behaviors\\numericentrybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\behaviors\\numericentrybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\converters\\customentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\converters\\customentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\hojastrabajopage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\hojastrabajopage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\mipmap-hdpi\\icon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\resources\\mipmap-hdpi\\icon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\precisogps.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\precisogps.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\responses\\hojatrabajochofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\hojatrabajochofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\hojastrabajopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\hojastrabajopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\utils\\horavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\utils\\horavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\responses\\produccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\produccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\responses\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
-      "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\scanqrpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\scanqrpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\gestionhojapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\gestionhojapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\scanqrpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\scanqrpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\services\\hojastrabajoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\services\\hojastrabajoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\services\\conductorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\services\\conductorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\hojastrabajoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\hojastrabajoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\reportechoferviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\reportechoferviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\seleccionarfechaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\seleccionarfechaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\gestionhojapage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\gestionhojapage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\gestionhojaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\gestionhojaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\responses\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\behaviors\\decimalentrybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\behaviors\\decimalentrybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\behaviors\\numericentrybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\behaviors\\numericentrybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\converters\\customentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\converters\\customentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\hojastrabajopage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\hojastrabajopage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\mipmap-hdpi\\icon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\resources\\mipmap-hdpi\\icon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\precisogps.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\precisogps.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\responses\\hojatrabajochofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\hojatrabajochofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\hojastrabajopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\hojastrabajopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\utils\\horavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\utils\\horavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\responses\\produccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\produccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\responses\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\scanqrpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\scanqrpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\responses\\unidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\responses\\unidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\unidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\responses\\resposehoja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\responses\\resposehoja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\resposehoja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\models\\paginatedsimcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\models\\paginatedsimcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\models\\paginatedsimcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\responses\\responsehojaconductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\responses\\responsehojaconductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\responsehojaconductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\responses\\conductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\responses\\conductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\responses\\conductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\services\\simcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\services\\simcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\services\\simcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\mipmap-anydpi-v26\\icon_round.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\mipmap-anydpi-v26\\icon_round.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\resources\\mipmap-anydpi-v26\\icon_round.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\mipmap-anydpi-v26\\icon.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\mipmap-anydpi-v26\\icon.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\resources\\mipmap-anydpi-v26\\icon.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\models\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\models\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\models\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\customentryrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\customentryrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\customentryrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\resources\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\aboutresources.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\precisogps.android\\resources\\aboutresources.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{AA7EB13D-E673-4D1B-B7AD-6D47B7BB50BF}|PrecisoGps.Android\\PrecisoGps.Android.csproj|solutionrelative:precisogps.android\\resources\\aboutresources.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\converters\\disabledfieldcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\converters\\disabledfieldcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\converters\\disabledfieldcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\editsimcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\editsimcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\editsimcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\simcardspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\simcardspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\simcardspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\simcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\simcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\simcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\simcardspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\simcardspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\simcardspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\editsimcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\viewmodels\\editsimcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\viewmodels\\editsimcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\views\\editsimcardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\views\\editsimcardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\views\\editsimcardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario\\downloads\\precisogpsdiego\\precisogps\\precisogps\\models\\simcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|c:\\users\\usuario-pc\\source\\repos\\precisogpsdiego\\precisogps\\precisogps\\models\\simcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823756E8-E47C-4D7A-A29A-C104A3EB5C2F}|PrecisoGps\\PrecisoGps.csproj|solutionrelative:precisogps\\models\\simcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -254,84 +254,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HojasTrabajoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\HojasTrabajoViewModel.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\HojasTrabajoViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\HojasTrabajoViewModel.cs",
-              "RelativeToolTip": "PrecisoGps\\ViewModels\\HojasTrabajoViewModel.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T01:01:35.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConductorService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\ConductorService.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Services\\ConductorService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\ConductorService.cs",
-              "RelativeToolTip": "PrecisoGps\\Services\\ConductorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:32:57.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HojasTrabajoService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\HojasTrabajoService.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Services\\HojasTrabajoService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\HojasTrabajoService.cs",
-              "RelativeToolTip": "PrecisoGps\\Services\\HojasTrabajoService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwDgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:13:17.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScanQRPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\ScanQRPage.xaml.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\ScanQRPage.xaml.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\ScanQRPage.xaml.cs",
-              "RelativeToolTip": "PrecisoGps\\Views\\ScanQRPage.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAjwBoAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T16:16:04.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuPrincipal.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\MenuPrincipal.xaml",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\MenuPrincipal.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\MenuPrincipal.xaml",
-              "RelativeToolTip": "PrecisoGps\\Views\\MenuPrincipal.xaml",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAcwFwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-21T19:53:34.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GestionHojaPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\GestionHojaPage.xaml.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\GestionHojaPage.xaml.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\GestionHojaPage.xaml.cs",
-              "RelativeToolTip": "PrecisoGps\\Views\\GestionHojaPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:41:35.465Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -339,276 +266,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReporteChoferViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\ReporteChoferViewModel.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\ReporteChoferViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\ReporteChoferViewModel.cs",
-              "RelativeToolTip": "PrecisoGps\\ViewModels\\ReporteChoferViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T16:22:32.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HojasTrabajoPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\HojasTrabajoPage.xaml",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\HojasTrabajoPage.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\HojasTrabajoPage.xaml",
-              "RelativeToolTip": "PrecisoGps\\Views\\HojasTrabajoPage.xaml",
-              "ViewState": "AgIAALYAAAAAAAAAAAAIwMsAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MenuPrincipal.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\MenuPrincipal.xaml",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\MenuPrincipal.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\MenuPrincipal.xaml",
+              "RelativeToolTip": "PrecisoGps\\Views\\MenuPrincipal.xaml",
+              "ViewState": "AgIAALQAAAAAAAAAAAAswMAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T00:35:21.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GestionHojaPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\GestionHojaPage.xaml",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\GestionHojaPage.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\GestionHojaPage.xaml",
-              "RelativeToolTip": "PrecisoGps\\Views\\GestionHojaPage.xaml",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAcwMQAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T18:38:40.966Z",
+              "WhenOpened": "2025-03-21T19:53:34.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SeleccionarFechaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\SeleccionarFechaViewModel.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\SeleccionarFechaViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\SeleccionarFechaViewModel.cs",
-              "RelativeToolTip": "PrecisoGps\\ViewModels\\SeleccionarFechaViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "GestionHojaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\GestionHojaPage.xaml.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\GestionHojaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\GestionHojaPage.xaml.cs",
+              "RelativeToolTip": "PrecisoGps\\Views\\GestionHojaPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:36:01.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CustomEntry.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Converters\\CustomEntry.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Converters\\CustomEntry.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Converters\\CustomEntry.cs",
-              "RelativeToolTip": "PrecisoGps\\Converters\\CustomEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T03:03:37.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NumericEntryBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Behaviors\\NumericEntryBehavior.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Behaviors\\NumericEntryBehavior.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Behaviors\\NumericEntryBehavior.cs",
-              "RelativeToolTip": "PrecisoGps\\Behaviors\\NumericEntryBehavior.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAuwF8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:00:12.759Z"
+              "WhenOpened": "2025-03-25T18:41:35.465Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\LoginPage.xaml",
-              "RelativeToolTip": "PrecisoGps\\Views\\LoginPage.xaml",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAKsAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-04T02:31:22.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Gasto.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Gasto.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Responses\\Gasto.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Gasto.cs",
-              "RelativeToolTip": "PrecisoGps\\Responses\\Gasto.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwCoAAAAJAAAAAAAAAA==",
+              "Title": "HojasTrabajoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\HojasTrabajoViewModel.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\HojasTrabajoViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\HojasTrabajoViewModel.cs",
+              "RelativeToolTip": "PrecisoGps\\ViewModels\\HojasTrabajoViewModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:18:56.601Z"
+              "WhenOpened": "2025-03-25T01:01:35.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GestionHojaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\GestionHojaViewModel.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\GestionHojaViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\GestionHojaViewModel.cs",
-              "RelativeToolTip": "PrecisoGps\\ViewModels\\GestionHojaViewModel.cs",
-              "ViewState": "AgIAACUCAAAAAAAAAAAuwDICAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:39:03.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DecimalEntryBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Behaviors\\DecimalEntryBehavior.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Behaviors\\DecimalEntryBehavior.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Behaviors\\DecimalEntryBehavior.cs",
-              "RelativeToolTip": "PrecisoGps\\Behaviors\\DecimalEntryBehavior.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAuwDsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:32:05.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "MenuPrincipal.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\MenuPrincipal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\MenuPrincipal.xaml.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Views\\MenuPrincipal.xaml.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\MenuPrincipal.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\MenuPrincipal.xaml.cs",
               "RelativeToolTip": "PrecisoGps\\Views\\MenuPrincipal.xaml.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwD0AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwG0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T19:54:34.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "PrecisoGps\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T02:38:38.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "PrecisoGps\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T04:47:14.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PrecisoGps.csproj",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\PrecisoGps.csproj",
-              "RelativeDocumentMoniker": "PrecisoGps\\PrecisoGps.csproj",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\PrecisoGps.csproj",
-              "RelativeToolTip": "PrecisoGps\\PrecisoGps.csproj",
-              "ViewState": "AgIAACcAAAAAAAAAAADwvzcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-28T03:56:09.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HojaTrabajoChofer.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\HojaTrabajoChofer.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Responses\\HojaTrabajoChofer.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\HojaTrabajoChofer.cs",
-              "RelativeToolTip": "PrecisoGps\\Responses\\HojaTrabajoChofer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T16:17:04.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Services\\LoginService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\LoginService.cs",
-              "RelativeToolTip": "PrecisoGps\\Services\\LoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T05:05:31.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HojasTrabajoPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\HojasTrabajoPage.xaml.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\HojasTrabajoPage.xaml.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\HojasTrabajoPage.xaml.cs",
-              "RelativeToolTip": "PrecisoGps\\Views\\HojasTrabajoPage.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T13:55:53.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "HoraValidator.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Utils\\HoraValidator.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Utils\\HoraValidator.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Utils\\HoraValidator.cs",
-              "RelativeToolTip": "PrecisoGps\\Utils\\HoraValidator.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwEQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:58:28.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Produccione.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Produccione.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Responses\\Produccione.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Produccione.cs",
-              "RelativeToolTip": "PrecisoGps\\Responses\\Produccione.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAcwDwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:19:35.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Ruta.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Ruta.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\Responses\\Ruta.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Ruta.cs",
-              "RelativeToolTip": "PrecisoGps\\Responses\\Ruta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:20:39.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ScanQRPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\ScanQRPage.xaml",
-              "RelativeDocumentMoniker": "PrecisoGps\\Views\\ScanQRPage.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\ScanQRPage.xaml",
-              "RelativeToolTip": "PrecisoGps\\Views\\ScanQRPage.xaml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T16:14:59.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\App.xaml.cs",
-              "RelativeDocumentMoniker": "PrecisoGps\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\App.xaml.cs",
-              "RelativeToolTip": "PrecisoGps\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T04:08:51.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\App.xaml",
               "RelativeDocumentMoniker": "PrecisoGps\\App.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\App.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\App.xaml",
               "RelativeToolTip": "PrecisoGps\\App.xaml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAcwCYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -616,11 +327,299 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\App.xaml.cs",
+              "RelativeToolTip": "PrecisoGps\\App.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T04:08:51.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScanQRPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\ScanQRPage.xaml.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\ScanQRPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\ScanQRPage.xaml.cs",
+              "RelativeToolTip": "PrecisoGps\\Views\\ScanQRPage.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAjwBoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:16:04.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HojasTrabajoService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\HojasTrabajoService.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Services\\HojasTrabajoService.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\HojasTrabajoService.cs",
+              "RelativeToolTip": "PrecisoGps\\Services\\HojasTrabajoService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:13:17.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConductorService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\ConductorService.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Services\\ConductorService.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\ConductorService.cs",
+              "RelativeToolTip": "PrecisoGps\\Services\\ConductorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:32:57.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReporteChoferViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\ReporteChoferViewModel.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\ReporteChoferViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\ReporteChoferViewModel.cs",
+              "RelativeToolTip": "PrecisoGps\\ViewModels\\ReporteChoferViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:22:32.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HojasTrabajoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\HojasTrabajoPage.xaml",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\HojasTrabajoPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\HojasTrabajoPage.xaml",
+              "RelativeToolTip": "PrecisoGps\\Views\\HojasTrabajoPage.xaml",
+              "ViewState": "AgIAALYAAAAAAAAAAAAIwMsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T00:35:21.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GestionHojaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\GestionHojaPage.xaml",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\GestionHojaPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\GestionHojaPage.xaml",
+              "RelativeToolTip": "PrecisoGps\\Views\\GestionHojaPage.xaml",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAcwMQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T18:38:40.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SeleccionarFechaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\SeleccionarFechaViewModel.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\SeleccionarFechaViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\SeleccionarFechaViewModel.cs",
+              "RelativeToolTip": "PrecisoGps\\ViewModels\\SeleccionarFechaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:36:01.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Converters\\CustomEntry.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Converters\\CustomEntry.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Converters\\CustomEntry.cs",
+              "RelativeToolTip": "PrecisoGps\\Converters\\CustomEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T03:03:37.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NumericEntryBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Behaviors\\NumericEntryBehavior.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Behaviors\\NumericEntryBehavior.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Behaviors\\NumericEntryBehavior.cs",
+              "RelativeToolTip": "PrecisoGps\\Behaviors\\NumericEntryBehavior.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwF8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:00:12.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "PrecisoGps\\Views\\LoginPage.xaml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAKsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T02:31:22.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Gasto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Gasto.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Responses\\Gasto.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Gasto.cs",
+              "RelativeToolTip": "PrecisoGps\\Responses\\Gasto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:18:56.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GestionHojaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\GestionHojaViewModel.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\GestionHojaViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\GestionHojaViewModel.cs",
+              "RelativeToolTip": "PrecisoGps\\ViewModels\\GestionHojaViewModel.cs",
+              "ViewState": "AgIAACUCAAAAAAAAAAAuwDICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:39:03.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DecimalEntryBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Behaviors\\DecimalEntryBehavior.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Behaviors\\DecimalEntryBehavior.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Behaviors\\DecimalEntryBehavior.cs",
+              "RelativeToolTip": "PrecisoGps\\Behaviors\\DecimalEntryBehavior.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:32:05.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "PrecisoGps\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T02:38:38.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "PrecisoGps\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T04:47:14.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PrecisoGps.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\PrecisoGps.csproj",
+              "RelativeDocumentMoniker": "PrecisoGps\\PrecisoGps.csproj",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\PrecisoGps.csproj",
+              "RelativeToolTip": "PrecisoGps\\PrecisoGps.csproj",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvzcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-28T03:56:09.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HojaTrabajoChofer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\HojaTrabajoChofer.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Responses\\HojaTrabajoChofer.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\HojaTrabajoChofer.cs",
+              "RelativeToolTip": "PrecisoGps\\Responses\\HojaTrabajoChofer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:17:04.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\LoginService.cs",
+              "RelativeToolTip": "PrecisoGps\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T05:05:31.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HojasTrabajoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\HojasTrabajoPage.xaml.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\HojasTrabajoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\HojasTrabajoPage.xaml.cs",
+              "RelativeToolTip": "PrecisoGps\\Views\\HojasTrabajoPage.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:55:53.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HoraValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Utils\\HoraValidator.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Utils\\HoraValidator.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Utils\\HoraValidator.cs",
+              "RelativeToolTip": "PrecisoGps\\Utils\\HoraValidator.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:58:28.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Produccione.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Produccione.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Responses\\Produccione.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Produccione.cs",
+              "RelativeToolTip": "PrecisoGps\\Responses\\Produccione.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwDwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:19:35.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Ruta.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Ruta.cs",
+              "RelativeDocumentMoniker": "PrecisoGps\\Responses\\Ruta.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Ruta.cs",
+              "RelativeToolTip": "PrecisoGps\\Responses\\Ruta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:20:39.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ScanQRPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\ScanQRPage.xaml",
+              "RelativeDocumentMoniker": "PrecisoGps\\Views\\ScanQRPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\ScanQRPage.xaml",
+              "RelativeToolTip": "PrecisoGps\\Views\\ScanQRPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T16:14:59.017Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 32,
               "Title": "Unidad.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Unidad.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Unidad.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Responses\\Unidad.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Unidad.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Unidad.cs",
               "RelativeToolTip": "PrecisoGps\\Responses\\Unidad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -630,9 +629,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "ResposeHoja.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\ResposeHoja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\ResposeHoja.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Responses\\ResposeHoja.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\ResposeHoja.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\ResposeHoja.cs",
               "RelativeToolTip": "PrecisoGps\\Responses\\ResposeHoja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -642,9 +641,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "PaginatedSimCards.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\PaginatedSimCards.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\PaginatedSimCards.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Models\\PaginatedSimCards.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\PaginatedSimCards.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\PaginatedSimCards.cs",
               "RelativeToolTip": "PrecisoGps\\Models\\PaginatedSimCards.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -654,9 +653,9 @@
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\User.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\User.cs",
               "RelativeToolTip": "PrecisoGps\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -666,9 +665,9 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\LoginResponse.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Models\\LoginResponse.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\LoginResponse.cs",
               "RelativeToolTip": "PrecisoGps\\Models\\LoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -678,9 +677,9 @@
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "ResponseHojaConductor.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\ResponseHojaConductor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\ResponseHojaConductor.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Responses\\ResponseHojaConductor.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\ResponseHojaConductor.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\ResponseHojaConductor.cs",
               "RelativeToolTip": "PrecisoGps\\Responses\\ResponseHojaConductor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -690,9 +689,9 @@
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "Conductor.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Conductor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Conductor.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Responses\\Conductor.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Conductor.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Responses\\Conductor.cs",
               "RelativeToolTip": "PrecisoGps\\Responses\\Conductor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -702,9 +701,9 @@
               "$type": "Document",
               "DocumentIndex": 39,
               "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Services\\ApiService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\ApiService.cs",
               "RelativeToolTip": "PrecisoGps\\Services\\ApiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -714,9 +713,9 @@
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "SimCardService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\SimCardService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\SimCardService.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Services\\SimCardService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\SimCardService.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Services\\SimCardService.cs",
               "RelativeToolTip": "PrecisoGps\\Services\\SimCardService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -726,9 +725,9 @@
               "$type": "Document",
               "DocumentIndex": 55,
               "Title": "SimCardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\SimCardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\SimCardViewModel.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\SimCardViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\SimCardViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\SimCardViewModel.cs",
               "RelativeToolTip": "PrecisoGps\\ViewModels\\SimCardViewModel.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -738,9 +737,9 @@
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "Link.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\Link.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\Link.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Models\\Link.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\Link.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\Link.cs",
               "RelativeToolTip": "PrecisoGps\\Models\\Link.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -750,9 +749,9 @@
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\BaseViewModel.cs",
               "RelativeToolTip": "PrecisoGps\\ViewModels\\BaseViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -762,9 +761,9 @@
               "$type": "Document",
               "DocumentIndex": 56,
               "Title": "SimCardsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\SimCardsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\SimCardsPage.xaml.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Views\\SimCardsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\SimCardsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\SimCardsPage.xaml.cs",
               "RelativeToolTip": "PrecisoGps\\Views\\SimCardsPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -774,9 +773,9 @@
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\MainPage.xaml",
               "RelativeDocumentMoniker": "PrecisoGps\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\MainPage.xaml",
               "RelativeToolTip": "PrecisoGps\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -786,9 +785,9 @@
               "$type": "Document",
               "DocumentIndex": 54,
               "Title": "SimCardsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\SimCardsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\SimCardsPage.xaml",
               "RelativeDocumentMoniker": "PrecisoGps\\Views\\SimCardsPage.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\SimCardsPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\SimCardsPage.xaml",
               "RelativeToolTip": "PrecisoGps\\Views\\SimCardsPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -798,9 +797,9 @@
               "$type": "Document",
               "DocumentIndex": 53,
               "Title": "EditSimCardPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\EditSimCardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\EditSimCardPage.xaml.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Views\\EditSimCardPage.xaml.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\EditSimCardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\EditSimCardPage.xaml.cs",
               "RelativeToolTip": "PrecisoGps\\Views\\EditSimCardPage.xaml.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAYwBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -810,9 +809,9 @@
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "DisabledFieldColorConverter.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Converters\\DisabledFieldColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Converters\\DisabledFieldColorConverter.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Converters\\DisabledFieldColorConverter.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Converters\\DisabledFieldColorConverter.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Converters\\DisabledFieldColorConverter.cs",
               "RelativeToolTip": "PrecisoGps\\Converters\\DisabledFieldColorConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -822,9 +821,9 @@
               "$type": "Document",
               "DocumentIndex": 58,
               "Title": "EditSimCardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\EditSimCardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\EditSimCardPage.xaml",
               "RelativeDocumentMoniker": "PrecisoGps\\Views\\EditSimCardPage.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\EditSimCardPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Views\\EditSimCardPage.xaml",
               "RelativeToolTip": "PrecisoGps\\Views\\EditSimCardPage.xaml",
               "ViewState": "AgIAACQAAAAAAAAAAADwvz0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -834,9 +833,9 @@
               "$type": "Document",
               "DocumentIndex": 57,
               "Title": "EditSimCardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\EditSimCardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\EditSimCardViewModel.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\ViewModels\\EditSimCardViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\EditSimCardViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\ViewModels\\EditSimCardViewModel.cs",
               "RelativeToolTip": "PrecisoGps\\ViewModels\\EditSimCardViewModel.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAADwv3QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -846,9 +845,9 @@
               "$type": "Document",
               "DocumentIndex": 59,
               "Title": "SimCard.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\SimCard.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\SimCard.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\Models\\SimCard.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\SimCard.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\Models\\SimCard.cs",
               "RelativeToolTip": "PrecisoGps\\Models\\SimCard.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAwwCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -856,34 +855,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "icon.png",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-hdpi\\icon.png",
-              "RelativeDocumentMoniker": "PrecisoGps.Android\\Resources\\mipmap-hdpi\\icon.png",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-hdpi\\icon.png",
-              "RelativeToolTip": "PrecisoGps.Android\\Resources\\mipmap-hdpi\\icon.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-03-31T18:07:50.43Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 60,
               "Title": "SimCardsPage.xaml.g.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs",
               "RelativeDocumentMoniker": "PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs",
               "RelativeToolTip": "PrecisoGps\\obj\\Debug\\netstandard2.0\\Views\\SimCardsPage.xaml.g.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-03T22:43:17.514Z"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 21,
+              "Title": "icon.png",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-hdpi\\icon.png",
+              "RelativeDocumentMoniker": "PrecisoGps.Android\\Resources\\mipmap-hdpi\\icon.png",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-hdpi\\icon.png",
+              "RelativeToolTip": "PrecisoGps.Android\\Resources\\mipmap-hdpi\\icon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-31T18:07:50.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Properties\\AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Properties\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\Properties\\AndroidManifest.xml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Properties\\AndroidManifest.xml",
               "RelativeToolTip": "PrecisoGps.Android\\Properties\\AndroidManifest.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2025-03-28T02:26:30.561Z"
@@ -892,9 +895,9 @@
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\MainActivity.cs",
               "RelativeToolTip": "PrecisoGps.Android\\MainActivity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -904,9 +907,9 @@
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Properties\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Properties\\AssemblyInfo.cs",
               "RelativeToolTip": "PrecisoGps.Android\\Properties\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -916,9 +919,9 @@
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "icon.xml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon.xml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon.xml",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon.xml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon.xml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon.xml",
               "RelativeToolTip": "PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
@@ -928,9 +931,9 @@
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "icon_round.xml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon_round.xml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon_round.xml",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon_round.xml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon_round.xml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon_round.xml",
               "RelativeToolTip": "PrecisoGps.Android\\Resources\\mipmap-anydpi-v26\\icon_round.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
@@ -940,9 +943,9 @@
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "CustomEntryRenderer.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\CustomEntryRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\CustomEntryRenderer.cs",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\CustomEntryRenderer.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\CustomEntryRenderer.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\CustomEntryRenderer.cs",
               "RelativeToolTip": "PrecisoGps.Android\\CustomEntryRenderer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -952,9 +955,9 @@
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "Resource.designer.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\Resource.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\Resource.designer.cs",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\Resources\\Resource.designer.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\Resource.designer.cs",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\Resource.designer.cs",
               "RelativeToolTip": "PrecisoGps.Android\\Resources\\Resource.designer.cs",
               "ViewState": "AgIAAMMDAAAAAAAAAAAawNkDAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -964,9 +967,9 @@
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "styles.xml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\values\\styles.xml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\values\\styles.xml",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\Resources\\values\\styles.xml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\values\\styles.xml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\values\\styles.xml",
               "RelativeToolTip": "PrecisoGps.Android\\Resources\\values\\styles.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
@@ -976,9 +979,9 @@
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "colors.xml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\values\\colors.xml",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\values\\colors.xml",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\Resources\\values\\colors.xml",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\values\\colors.xml",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\values\\colors.xml",
               "RelativeToolTip": "PrecisoGps.Android\\Resources\\values\\colors.xml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
@@ -988,9 +991,9 @@
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "AboutResources.txt",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\AboutResources.txt",
+              "DocumentMoniker": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\AboutResources.txt",
               "RelativeDocumentMoniker": "PrecisoGps.Android\\Resources\\AboutResources.txt",
-              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\AboutResources.txt",
+              "ToolTip": "C:\\Users\\Usuario-PC\\source\\repos\\PrecisoGpsDiego\\PrecisoGps\\PrecisoGps.Android\\Resources\\AboutResources.txt",
               "RelativeToolTip": "PrecisoGps.Android\\Resources\\AboutResources.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",

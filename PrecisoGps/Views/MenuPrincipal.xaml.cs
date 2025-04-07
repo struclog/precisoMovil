@@ -18,10 +18,66 @@ namespace PrecisoGps.Views
         public MenuPrincipal()
         {
             InitializeComponent();
+            VerificarSesionGuardada();
         }
 
+        private async void VerificarSesionGuardada()
+        {
+            string token = await SecureStorage.GetAsync("user_token");
+            string perfil = await SecureStorage.GetAsync("user_perfil");
 
-        private async void OnIniciarSesionClicked(object sender, EventArgs e)
+            if (!string.IsNullOrEmpty(token))
+            {
+                var loginService = new Services.LoginService();
+                bool isValid = await loginService.ValidarToken(token);
+
+                if (isValid && perfil == "admin")
+                {
+                    UsuarioLogueado = true;
+                    PerfilUsuario = perfil;
+                }
+            }
+        }
+
+        private async void OnAsignacionConductorClicked(object sender, System.EventArgs e)
+        {
+            if (!UsuarioLogueado || PerfilUsuario != "admin")
+            {
+                await DisplayAlert("Acceso denegado", "Debes iniciar sesión como admin", "OK");
+                await MostrarLoginPage();
+                return;
+            }
+
+            // Aquí puedes navegar a la página de conductores cuando esté disponible
+            await DisplayAlert("Información", "Funcionalidad en desarrollo", "OK");
+        }
+
+        private async void OnContadoresClicked(object sender, System.EventArgs e)
+        {
+            if (!UsuarioLogueado || PerfilUsuario != "admin")
+            {
+                await DisplayAlert("Acceso denegado", "Debes iniciar sesión como admin", "OK");
+                await MostrarLoginPage();
+                return;
+            }
+
+            await Navigation.PushAsync(new HojasTrabajoPage());
+        }
+
+        private async void OnCrearReporteClicked(object sender, EventArgs e)
+        {
+            if (!UsuarioLogueado || PerfilUsuario != "admin")
+            {
+                await DisplayAlert("Acceso denegado", "Debes iniciar sesión como admin", "OK");
+                await MostrarLoginPage();
+                return;
+            }
+
+            await Navigation.PushAsync(new ScanQRPage());
+        }
+
+        // Método auxiliar para mostrar la página de login
+        private async Task MostrarLoginPage()
         {
             var loginPage = new LoginPage();
             loginPage.Disappearing += async (s, args) =>
@@ -34,35 +90,13 @@ namespace PrecisoGps.Views
                 {
                     UsuarioLogueado = true;
                     PerfilUsuario = perfil;
-
-                    await DisplayAlert("Bienvenido", "Inicio de sesión exitoso", "OK");
-                }
-                else
-                {
-                    await DisplayAlert("Acceso restringido", "Debes tener perfil admin", "OK");
                 }
             };
 
             await Navigation.PushAsync(loginPage);
         }
 
-        private async void OnAsignacionConductorClicked(object sender, System.EventArgs e)
-        {
-           
-        }
-
-        private async void OnContadoresClicked(object sender, System.EventArgs e)
-        {
-            if (!UsuarioLogueado || PerfilUsuario != "admin")
-            {
-                await DisplayAlert("Acceso denegado", "Debes iniciar sesión como admin", "OK");
-                return;
-            }
-
-            await Navigation.PushAsync(new HojasTrabajoPage());
-            // await Navigation.PushAsync(new ContadoresPage());
-        }
-
+        // Mantenemos estos métodos por compatibilidad
         private async void OnMantenimientoPreventivoClicked(object sender, System.EventArgs e)
         {
             //await Navigation.PushAsync(new MantenimientoPreventivoPage());
@@ -72,10 +106,5 @@ namespace PrecisoGps.Views
         {
             //await Navigation.PushAsync(new MantenimientoCorrectivoPage());
         }
-        private async void OnCrearReporteClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ScanQRPage());
-        }
-
     }
 }
