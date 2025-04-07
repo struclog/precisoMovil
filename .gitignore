@@ -1,6 +1,13 @@
-# Ignorar carpetas generadas por Visual Studio y Xamarin
+# Visual Studio y Xamarin
 .vs/
 bin/
 obj/
 *.user
 *.suo
+*.apk
+*.dll
+*.pdb
+*.json
+*.cache
+*.zip
+*.flat
