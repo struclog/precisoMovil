@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:PrecisoGps.ViewModels"
+             x:Class="PrecisoGps.Views.HojasTrabajoPage"
+             Title="Hojas de Trabajo"
+             BackgroundColor="#F8F9FA">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="CardTitleStyle" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="TextColor" Value="#212529" />
+                <Setter Property="Margin" Value="0,0,0,5" />
+            </Style>
+
+            <Style x:Key="CardSubtitleStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="TextColor" Value="#495057" />
+                <Setter Property="Margin" Value="0,0,0,2" />
+            </Style>
+
+            <Style x:Key="CardTextStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="13" />
+                <Setter Property="TextColor" Value="#6C757D" />
+            </Style>
+
+            <Style x:Key="PrimaryButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#0D6EFD" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="HeightRequest" Value="48" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            <Style x:Key="SecondaryButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#17A2B8" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="HeightRequest" Value="42" />
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.BindingContext>
+        <vm:HojasTrabajoViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid RowDefinitions="Auto,*" Padding="16,12">
+        <!-- Header con Filtro de Fecha -->
+        <Frame Grid.Row="0" 
+               BackgroundColor="White"
+               CornerRadius="12"
+               Padding="18"
+               HasShadow="False"
+               BorderColor="#E9ECEF"
+               Margin="0,0,0,16">
+            <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="*,Auto" RowSpacing="10">
+                <Label Text="Filtrar Hojas de Trabajo" 
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="#212529"
+                       Grid.ColumnSpan="2"/>
+
+                <BoxView Grid.Row="1" 
+                         Grid.ColumnSpan="2" 
+                         HeightRequest="1" 
+                         Color="#E9ECEF"
+                         Margin="0,8"/>
+
+                <Grid Grid.Row="2" Grid.Column="0" ColumnDefinitions="Auto,*" ColumnSpacing="10">
+                    <Image Source="calendar_icon.png" 
+                           WidthRequest="24" 
+                           HeightRequest="24" 
+                           VerticalOptions="Center"/>
+                    <DatePicker x:Name="FechaPicker"
+                                Grid.Column="1"
+                                Date="{Binding FechaSeleccionada}"
+                                Format="dd/MM/yyyy"
+                                TextColor="#212529"
+                                FontSize="15" 
+                                VerticalOptions="Center"/>
+                </Grid>
+
+                <Button Grid.Row="2" 
+                        Grid.Column="1"
+                        Text="Buscar"
+                        Command="{Binding BuscarCommand}"
+                        Style="{StaticResource PrimaryButtonStyle}"
+                        WidthRequest="120"/>
+            </Grid>
+        </Frame>
+
+        <!-- Lista de Hojas de Trabajo -->
+        <RefreshView Grid.Row="1" 
+                    Command="{Binding RefreshCommand}" 
+                    IsRefreshing="{Binding IsRefreshing}">
+            <CollectionView ItemsSource="{Binding Hojas}" 
+                          EmptyView="No hay hojas de trabajo para esta fecha">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" 
+                                      ItemSpacing="12" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="#DEE2E6"
+                               CornerRadius="12"
+                               Margin="0"
+                               BackgroundColor="White"
+                               HasShadow="True"
+                               Padding="16">
+                            <Grid RowDefinitions="Auto,Auto,Auto,Auto" 
+                                  ColumnDefinitions="Auto,*,Auto" 
+                                  RowSpacing="4" 
+                                  ColumnSpacing="10">
+
+                                <!-- Fecha y Tipo de Día -->
+                                <Image Grid.RowSpan="2" 
+                                       Source="document_icon.png" 
+                                       WidthRequest="36" 
+                                       HeightRequest="36" 
+                                       VerticalOptions="Start"/>
+
+                                <Label Grid.Column="1" 
+                                       Text="{Binding fecha}" 
+                                       Style="{StaticResource CardTitleStyle}"/>
+
+                                <Frame Grid.Column="2" 
+                                       Padding="8,4" 
+                                       BackgroundColor="#E9ECEF" 
+                                       CornerRadius="6" 
+                                       HasShadow="False">
+                                    <Label Text="{Binding tipo_dia}" 
+                                           FontSize="12" 
+                                           TextColor="#495057" 
+                                           FontAttributes="Bold"/>
+                                </Frame>
+
+                                <!-- Información adicional -->
+                                <Label Grid.Row="1" 
+                                       Grid.Column="1" 
+                                       Grid.ColumnSpan="2"
+                                       Text="{Binding ruta.descripcion, StringFormat='Ruta: {0}'}" 
+                                       Style="{StaticResource CardSubtitleStyle}"/>
+
+                                <Grid Grid.Row="2" 
+                                      Grid.Column="1" 
+                                      Grid.ColumnSpan="2" 
+                                      ColumnDefinitions="Auto,*,Auto,*">
+
+                                    <Label Text="Unidad:" 
+                                           TextColor="#6C757D" 
+                                           FontSize="13"/>
+
+                                    <Label Grid.Column="1" 
+                                           Text="{Binding unidad.placa}" 
+                                           TextColor="#343A40" 
+                                           FontSize="13"
+                                           FontAttributes="Bold"
+                                           Margin="5,0,0,0"/>
+
+                                    <Label Grid.Column="2" 
+                                           Text="Conductor:" 
+                                           TextColor="#6C757D" 
+                                           FontSize="13"/>
+
+                                    <Label Grid.Column="3" 
+                                           Text="{Binding conductor.nombre}" 
+                                           TextColor="#343A40" 
+                                           FontSize="13" 
+                                           FontAttributes="Bold"
+                                           Margin="5,0,0,0"/>
+                                </Grid>
+
+                                <!-- Línea divisoria -->
+                                <BoxView Grid.Row="3" 
+                                         Grid.ColumnSpan="3" 
+                                         HeightRequest="1" 
+                                         Color="#E9ECEF"
+                                         Margin="0,10"/>
+
+                                <!-- Botones de acción -->
+                                <!-- Botones de acción -->
+                                <Grid Grid.Row="4" 
+      Grid.ColumnSpan="3">
+
+                                    <Button Text="Generar PDF"
+            Command="{Binding BindingContext.GenerarPdfCommand, Source={x:Reference FechaPicker}}"
+            CommandParameter="{Binding .}"
+            Style="{StaticResource SecondaryButtonStyle}"
+            HorizontalOptions="Center"
+            WidthRequest="150" />
+                                </Grid>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+    </Grid>
+</ContentPage>

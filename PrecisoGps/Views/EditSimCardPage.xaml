@@ -1,0 +1,89 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrecisoGps.Views.EditSimCardPage">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <!-- Título -->
+            <Label Text="Editar SIM Card" FontSize="Large" HorizontalOptions="Center" FontAttributes="Bold" />
+
+            <!-- Datos Generales -->
+            <Frame CornerRadius="10" Padding="10" BackgroundColor="#f5f5f5">
+                <StackLayout>
+                    <Label Text="Datos Generales" FontAttributes="Bold" FontSize="Medium" />
+                    <Picker Title="Propietario" SelectedItem="{Binding SelectedSimCard.PROPIETARIO}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>PRECISOGPS S.A.S.</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <Entry Placeholder="Cuenta" Text="{Binding SelectedSimCard.CUENTA}" />
+                    <Entry Placeholder="Número de Teléfono" Text="{Binding SelectedSimCard.NUMEROTELEFONO}" />
+                    <Entry Placeholder="ICC" Text="{Binding SelectedSimCard.ICC}" 
+                           IsEnabled="{Binding IsICCEnabled}" 
+                           BackgroundColor="{Binding IsICCEnabled, Converter={StaticResource DisabledFieldColorConverter}}" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Planes y Estado -->
+            <Frame CornerRadius="10" Padding="10" BackgroundColor="#f5f5f5">
+                <StackLayout>
+                    <Label Text="Detalles del Plan" FontAttributes="Bold" FontSize="Medium" />
+                    <Entry Placeholder="Tipo de Plan" Text="{Binding SelectedSimCard.TIPOPLAN}" />
+                    <Entry Placeholder="Plan" Text="{Binding SelectedSimCard.PLAN}" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Detalles Técnicos -->
+            <Frame CornerRadius="10" Padding="10" BackgroundColor="#f5f5f5">
+                <StackLayout>
+                    <Label Text="Detalles Técnicos" FontAttributes="Bold" FontSize="Medium" />
+
+                    <Entry Placeholder="Grupo" Text="{Binding SelectedSimCard.GRUPO}" 
+                           IsEnabled="{Binding IsGrupoEnabled}" 
+                           BackgroundColor="{Binding IsGrupoEnabled, Converter={StaticResource DisabledFieldColorConverter}}" />
+
+                    <Entry Placeholder="Asignación" Text="{Binding SelectedSimCard.ASIGNACION}" 
+                           IsEnabled="{Binding IsAsignacionEnabled}" 
+                           BackgroundColor="{Binding IsAsignacionEnabled, Converter={StaticResource DisabledFieldColorConverter}}" />
+
+                    <Entry Placeholder="IMEI" Text="{Binding SelectedSimCard.IMEI}" 
+                           IsEnabled="{Binding IsImeiEnabled}" 
+                           BackgroundColor="{Binding IsImeiEnabled, Converter={StaticResource DisabledFieldColorConverter}}" />
+
+                    <Picker Title="Equipo" SelectedItem="{Binding SelectedSimCard.EQUIPO}" 
+                           IsEnabled="{Binding IsEquipoEnabled}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>GPS</x:String>
+                                <x:String>MODEM</x:String>
+                                <x:String>MOVIL</x:String>
+                                <x:String>COMPUTADOR ABORDO</x:String>
+                                <x:String>LECTOR DE QR</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <Picker Title="Estado" SelectedItem="{Binding SelectedSimCard.ESTADO}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>ACTIVA</x:String>
+                                <x:String>LIBRE</x:String>
+                                <x:String>ELIMINADA</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+            </Frame>
+
+            <!-- Botones -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="20">
+                <Button Text="Guardar" Command="{Binding SaveCommand}" BackgroundColor="#4CAF50" TextColor="White" />
+                <Button Text="Cancelar" Command="{Binding CancelCommand}" BackgroundColor="#F44336" TextColor="White" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

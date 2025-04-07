@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:PrecisoGps.Converters"
+             x:Class="PrecisoGps.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Tu convertidor -->
+            <converters:DisabledFieldColorConverter x:Key="DisabledFieldColorConverter" />
+
+            <!-- Colores Globales para tema claro -->
+            <Color x:Key="ColorFondoClaro">#FFFFFF</Color>
+            <Color x:Key="ColorTextoOscuro">#000000</Color>
+            <Color x:Key="ColorBordeClaro">#CCCCCC</Color>
+            <Color x:Key="ColorFondoTarjeta">#F4F4F4</Color>
+            <Color x:Key="CircleRedColor">#F51D5F</Color>
+
+            <!-- Estilo global para Label -->
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorTextoOscuro}" />
+            </Style>
+
+            <!-- Estilo global para Entry -->
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="{StaticResource ColorTextoOscuro}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorFondoClaro}" />
+            </Style>
+
+            <!-- Estilo global para Frame -->
+            <Style TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorFondoTarjeta}" />
+                <Setter Property="BorderColor" Value="{StaticResource ColorBordeClaro}" />
+            </Style>
+
+            <!-- Estilo global para ContentPage -->
+            <Style TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorFondoClaro}" />
+            </Style>
+    
+            <!-- Tu estilo personalizado se mantiene intacto -->
+            <Style x:Key="RoundedEntryStyle" TargetType="Entry">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="WidthRequest" Value="200" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

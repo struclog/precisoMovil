@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             x:Class="PrecisoGps.Views.ScanQRPage"
+             Title="Escanear QR"
+             BackgroundColor="Black">
+
+    <Grid>
+
+        <!-- Cámara -->
+        <zxing:ZXingScannerView x:Name="scannerView"
+                                OnScanResult="OnScanResult"
+                                IsScanning="True"
+                                IsAnalyzing="True"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand" />
+
+        <!-- Capas oscuras -->
+        <!-- Superior -->
+        <BoxView BackgroundColor="#88000000"
+                 VerticalOptions="Start"
+                 HeightRequest="200"
+                 HorizontalOptions="FillAndExpand" />
+
+        <!-- Inferior -->
+        <BoxView BackgroundColor="#88000000"
+                 VerticalOptions="End"
+                 HeightRequest="200"
+                 HorizontalOptions="FillAndExpand" />
+
+        <!-- Izquierda -->
+        <BoxView BackgroundColor="#88000000"
+                 VerticalOptions="Center"
+                 HeightRequest="200"
+                 WidthRequest="60"
+                 HorizontalOptions="Start" />
+
+        <!-- Derecha -->
+        <BoxView BackgroundColor="#88000000"
+                 VerticalOptions="Center"
+                 HeightRequest="200"
+                 WidthRequest="60"
+                 HorizontalOptions="End" />
+
+        <AbsoluteLayout HeightRequest="200"
+                WidthRequest="250"
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+
+            <!-- Marco -->
+            <Frame BackgroundColor="Transparent"
+           BorderColor="White"
+           CornerRadius="0"
+           HasShadow="False"
+           HeightRequest="200"
+           WidthRequest="250"
+           AbsoluteLayout.LayoutBounds="0,0,1,1"
+           AbsoluteLayout.LayoutFlags="All" />
+
+            <!-- Línea animada dentro del marco -->
+            <BoxView x:Name="lineaEscaneo"
+             HeightRequest="2"
+             WidthRequest="250"
+             BackgroundColor="Red"
+             AbsoluteLayout.LayoutBounds="0,0,1,AutoSize"
+             AbsoluteLayout.LayoutFlags="WidthProportional" />
+        </AbsoluteLayout>
+
+        <!-- Texto arriba -->
+        <StackLayout VerticalOptions="Start" Padding="20,40,20,0">
+            <Label Text="Apunte al código QR de la unidad"
+                   TextColor="White"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+        </StackLayout>
+
+        <!-- Texto abajo -->
+        <StackLayout VerticalOptions="End" Padding="0,0,0,30">
+            <Label Text="Escaneo automático"
+                   TextColor="White"
+                   FontSize="Small"
+                   HorizontalOptions="Center" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

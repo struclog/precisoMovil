@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:PrecisoGps.ViewModels"
+             x:Class="PrecisoGps.Views.SimCardsPage">
+
+    <ContentPage.BindingContext>
+        <vm:SimCardViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="20" Spacing="10">
+        <!-- Barra de búsqueda -->
+        <Entry Placeholder="Buscar SIM Card" Text="{Binding SearchId}" />
+        <Button Text="Buscar" Command="{Binding SearchCommand}" BackgroundColor="#2196F3" TextColor="White" />
+
+        <!-- Lista de resultados -->
+        <ListView ItemsSource="{Binding SimCards}" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BorderColor="#cccccc" CornerRadius="5" Padding="10" Margin="5">
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <!-- Información de la SIM Card -->
+                                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+
+                                    <!-- Mostrar ASIGNACION o "Sin asignar" -->
+                                    <Label FontSize="Medium" FontAttributes="Bold">
+                                        <Label.Text>
+                                            <Binding Path="ASIGNACION" FallbackValue="Sin asignar" TargetNullValue="Sin asignar" />
+                                        </Label.Text>
+                                    </Label>
+                                    <!-- Mostrar GRUPO o "Sin asignar", si está vacío mostrar NUMEROTELEFONO -->
+                                    <Label FontSize="Small" TextColor="#666666">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="Grupo: {0}">
+                                                <Binding Path="GRUPO" FallbackValue="Sin asignar" TargetNullValue="Sin asignar" />
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+
+                                    <!-- Mostrar NUMEROTELEFONO -->
+                                    <Label FontSize="Small" TextColor="#666666">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="Teléfono: {0}">
+                                                <Binding Path="NUMEROTELEFONO" />
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+
+                                    <!-- Mostrar ICC -->
+                                    <Label FontSize="Small" TextColor="#666666">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="ICC: {0}">
+                                                <Binding Path="ICC" />
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+                                </StackLayout>
+
+                                <!-- Botón Editar -->
+                                <Button Text="Editar"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SimCardViewModel}}, Path=EditCommand}" 
+                            CommandParameter="{Binding .}" 
+                            BackgroundColor="#4CAF50" 
+                            TextColor="White" 
+                            CornerRadius="20" />
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </StackLayout>
+</ContentPage>

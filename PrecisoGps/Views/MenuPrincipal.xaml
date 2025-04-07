@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrecisoGps.Views.MenuPrincipal"
+             Title="Menú Principal"
+             NavigationPage.HasNavigationBar="False">
+    <!--Comentarios del diseño  -->
+    <!-- diseño del fondo degradado -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#001F3F" Offset="0.0" />
+            <GradientStop Color="#0074D9" Offset="0.4" />
+            <GradientStop Color="#00B19F" Offset="0.7" />
+            <GradientStop Color="#00F2A9" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="EmojiStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="40" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="Margin" Value="0,10,0,5" />
+            </Style>
+
+            <Style x:Key="ButtonTextStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="Margin" Value="0,5,0,15" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Espacio superior -->
+        <BoxView Grid.Row="0" HeightRequest="40" Color="Transparent" />
+
+        <!-- Cabecera con logo y título -->
+        <StackLayout Grid.Row="1" Margin="0,20,0,40">
+            <!-- Emoji en lugar del logo -->
+            <Image Source="http://precisogps.com/img/precisoimg/logoPreciso.jpg"
+                WidthRequest="90"
+                HeightRequest="90"
+                HorizontalOptions="Center" />
+
+            <Label Text="PRECISOGPS" 
+                   FontSize="30" 
+                   FontAttributes="Bold" 
+                   TextColor="White" 
+                   HorizontalOptions="Center"
+                   Margin="0,15,0,5" />
+            <Label Text="Sistema Integral de Gestión" 
+                   FontSize="18" 
+                   TextColor="#E0E0E0" 
+                   HorizontalOptions="Center" />
+        </StackLayout>
+
+        <!-- Grid principal con los 4 botones estilizados -->
+        <Grid Grid.Row="2" 
+              RowSpacing="20" 
+              ColumnSpacing="20" 
+              Margin="0,10,0,10"
+              VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Botón 1: Iniciar Sesión (con emoji y sombra) -->
+            <Frame Grid.Row="0" Grid.Column="0"
+                   BackgroundColor="#26FFFFFF"
+                   BorderColor="#FFFFFF"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   Padding="0"
+                   Margin="5">
+                <Grid Padding="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Emoji de cerrar sesión -->
+                    <Label Grid.Row="0" 
+                           Text="🔐" 
+                           Style="{StaticResource EmojiStyle}" />
+
+                    <Label Grid.Row="1" 
+                           Text="INICIAR SESIÓN" 
+                           Style="{StaticResource ButtonTextStyle}" />
+
+                    <Button Grid.RowSpan="2"
+                            BackgroundColor="Transparent"
+                            Clicked="OnIniciarSesionClicked" />
+                </Grid>
+            </Frame>
+
+            <!-- Botón 2: Gestión de Conductores -->
+            <!--<Frame Grid.Row="0" Grid.Column="1"
+                   BackgroundColor="#3498DB"
+                   BorderColor="#FFFFFF"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   Padding="0"
+                   Margin="5">
+                <Grid Padding="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    --><!-- Emoji de conductor --><!--
+                    <Label Grid.Row="0" 
+                           Text="🚗" 
+                           Style="{StaticResource EmojiStyle}" />
+
+                    <Label Grid.Row="1" 
+                           Text="GESTIÓN DE CONDUCTORES" 
+                           Style="{StaticResource ButtonTextStyle}" />
+
+                    <Button Grid.RowSpan="2"
+                            BackgroundColor="Transparent"
+                            Clicked="OnAsignacionConductorClicked" />
+                </Grid>
+            </Frame>-->
+
+            <!-- Botón 3: Reportes Recaudo -->
+            <Frame Grid.Row="0" Grid.Column="1"
+                   BackgroundColor="#2ECC71"
+                   BorderColor="#FFFFFF"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   Padding="0"
+                   Margin="5">
+                <Grid Padding="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Emoji de contador/reportes -->
+                    <Label Grid.Row="0" 
+                           Text="📊" 
+                           Style="{StaticResource EmojiStyle}" />
+
+                    <Label Grid.Row="1" 
+                           Text="REPORTES RECAUDO" 
+                           Style="{StaticResource ButtonTextStyle}" />
+
+                    <Button Grid.RowSpan="2"
+                            BackgroundColor="Transparent"
+                            Clicked="OnContadoresClicked" />
+                </Grid>
+            </Frame>
+
+            <!-- Botón 4: Registrar Recaudo Diario -->
+            <Frame Grid.Row="1" Grid.Column="0"
+                   BackgroundColor="#9B59B6"
+                   BorderColor="#FFFFFF"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   Padding="0"
+                   Margin="5">
+                <Grid Padding="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Emoji de registrar ingreso -->
+                    <Label Grid.Row="0" 
+                           Text="💰" 
+                           Style="{StaticResource EmojiStyle}" />
+
+                    <Label Grid.Row="1" 
+                           Text="REGISTRAR RECAUDO DIARIO" 
+                           Style="{StaticResource ButtonTextStyle}" />
+
+                    <Button Grid.RowSpan="2"
+                            BackgroundColor="Transparent"
+                            Clicked="OnCrearReporteClicked" />
+                </Grid>
+            </Frame>
+        </Grid>
+
+        <!-- Pie de página -->
+        <Label Grid.Row="3" 
+               Text="© 2025 PrecisoGPS" 
+               TextColor="White" 
+               FontSize="14" 
+               HorizontalOptions="Center"
+               VerticalOptions="End"
+               Margin="0,0,0,25" />
+    </Grid>
+</ContentPage>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PrecisoGps.Converters"
+             xmlns:vm="clr-namespace:PrecisoGps.ViewModels"
+             x:Class="PrecisoGps.Views.LoginPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel />
+    </ContentPage.BindingContext>
+
+    <!-- Recursos y estilos -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="RoundedEntryStyle" TargetType="local:CustomEntry">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="PlaceholderColor" Value="#B2FFFFFF" />
+                <Setter Property="HorizontalTextAlignment" Value="Start" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="Margin" Value="15,0" />
+            </Style>
+
+            <Style x:Key="EmojiStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="Margin" Value="20,0,0,0" />
+                <Setter Property="Opacity" Value="0.8" />
+            </Style>
+
+            <Color x:Key="CircleRedColor">#F51D5F</Color>
+            <Color x:Key="PrimaryBlue">#0A2A58</Color>
+            <Color x:Key="SecondaryBlue">#00BCD4</Color>
+            <Color x:Key="AccentPink">#F51D5F</Color>
+            <Color x:Key="TransparentBlue">#803DCCEB</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <!-- Fondo con degradado tecnológico -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#001F3F" Offset="0.0" />
+                <GradientStop Color="#0074D9" Offset="0.4" />
+                <GradientStop Color="#00B19F" Offset="0.7" />
+                <GradientStop Color="#00F2A9" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <!-- Elementos decorativos del fondo tecnológico -->
+        <Grid>
+            <!-- Líneas verticales -->
+            <BoxView Color="#FFFFFF" Opacity="0.05" WidthRequest="1"
+                     HorizontalOptions="Start" VerticalOptions="FillAndExpand"
+                     Margin="50,0,0,0" />
+
+            <BoxView Color="#FFFFFF" Opacity="0.05" WidthRequest="1"
+                     HorizontalOptions="End" VerticalOptions="FillAndExpand"
+                     Margin="0,0,50,0" />
+
+            <!-- Líneas horizontales -->
+            <BoxView Color="#FFFFFF" Opacity="0.05" HeightRequest="1"
+                     HorizontalOptions="FillAndExpand" VerticalOptions="Start"
+                     Margin="0,150,0,0" />
+
+            <BoxView Color="#FFFFFF" Opacity="0.05" HeightRequest="1"
+                     HorizontalOptions="FillAndExpand" VerticalOptions="End"
+                     Margin="0,0,0,150" />
+
+            <!-- Patrones geométricos laterales sutiles -->
+            <Grid HorizontalOptions="Start" VerticalOptions="Center"
+                  Margin="10,0,0,0" WidthRequest="30" HeightRequest="300"
+                  Opacity="0.15">
+                <BoxView Color="{StaticResource AccentPink}" HeightRequest="50" WidthRequest="3"
+                         HorizontalOptions="Start" VerticalOptions="Start" />
+
+                <BoxView Color="{StaticResource SecondaryBlue}" HeightRequest="80" WidthRequest="3"
+                         HorizontalOptions="Start" VerticalOptions="Center" />
+
+                <BoxView Color="{StaticResource AccentPink}" HeightRequest="50" WidthRequest="3"
+                         HorizontalOptions="Start" VerticalOptions="End" />
+            </Grid>
+
+            <Grid HorizontalOptions="End" VerticalOptions="Center"
+                  Margin="0,0,10,0" WidthRequest="30" HeightRequest="300"
+                  Opacity="0.15">
+                <BoxView Color="{StaticResource SecondaryBlue}" HeightRequest="50" WidthRequest="3"
+                         HorizontalOptions="End" VerticalOptions="Start" />
+
+                <BoxView Color="{StaticResource AccentPink}" HeightRequest="80" WidthRequest="3"
+                         HorizontalOptions="End" VerticalOptions="Center" />
+
+                <BoxView Color="{StaticResource SecondaryBlue}" HeightRequest="50" WidthRequest="3"
+                         HorizontalOptions="End" VerticalOptions="End" />
+            </Grid>
+
+            <!-- Patrón hexagonal superior (aspecto tecnológico) -->
+            <Path Stroke="{StaticResource SecondaryBlue}" StrokeThickness="1" 
+                  HorizontalOptions="End" VerticalOptions="Start"
+                  Margin="0,50,50,0" Opacity="0.15"
+                  Data="M 0,30 L 25,0 L 75,0 L 100,30 L 75,60 L 25,60 Z" />
+
+            <Path Stroke="{StaticResource SecondaryBlue}" StrokeThickness="1" 
+                  HorizontalOptions="Start" VerticalOptions="End"
+                  Margin="50,0,0,50" Opacity="0.15"
+                  Data="M 0,30 L 25,0 L 75,0 L 100,30 L 75,60 L 25,60 Z" />
+
+            <!-- Mapa de ruta estilizado (simboliza GPS) -->
+            <Path Stroke="{StaticResource AccentPink}" StrokeThickness="1.5"
+                  HorizontalOptions="Center" VerticalOptions="Center"
+                  HeightRequest="500" WidthRequest="400" Opacity="0.05"
+                  Data="M 200,50 L 250,100 L 300,80 L 350,150 L 300,250 L 200,300 L 100,250 L 50,150 L 100,80 L 150,100 Z M 200,50 L 100,80 M 250,100 L 150,100 M 300,80 L 200,300 M 350,150 L 50,150" />
+        </Grid>
+
+        <!-- Contenido principal -->
+        <ScrollView>
+            <StackLayout Padding="30,40" Spacing="30">
+                <!-- Logo y título -->
+                <StackLayout HorizontalOptions="Center" Spacing="5" Margin="0,30,0,40">
+                    <!-- Emoji de ubicación en lugar de imagen -->
+                    <Image Source="http://precisogps.com/img/precisoimg/logoPreciso.jpg"
+                        WidthRequest="90"
+                        HeightRequest="90"
+                        HorizontalOptions="Center" />
+                    <Label Text="PRECISOGPS"
+                          TextColor="White"
+                          FontSize="28"
+                          FontAttributes="Bold"
+                          HorizontalOptions="Center" 
+                          Margin="0,10,0,0" />
+
+                    <Label Text="Sistema Integral de Gestión"
+                          TextColor="#E6FFFFFF"
+                          FontSize="16"
+                          HorizontalOptions="Center"
+                          Margin="0,0,0,0" />
+                </StackLayout>
+
+                <!-- Panel de inicio de sesión con efecto glassmorphism -->
+                <Frame BackgroundColor="#243A5E" 
+                       CornerRadius="8" 
+                       HasShadow="True" 
+                       Padding="25" 
+                       Margin="0,0,0,20"
+                       Opacity="0.95"
+                       BorderColor="#3889B5">
+                    <StackLayout Spacing="20">
+                        <!-- Título del panel -->
+                        <Label Text="INICIAR SESIÓN" 
+                               TextColor="{StaticResource SecondaryBlue}" 
+                               FontSize="18" 
+                               FontAttributes="Bold" 
+                               HorizontalOptions="Center" 
+                               Margin="0,0,0,15" />
+
+                        <!-- Campo de correo electrónico -->
+                        <Frame BackgroundColor="#1A2F4F" 
+                               CornerRadius="6" 
+                               Padding="0" 
+                               HasShadow="False" 
+                               BorderColor="#3889B5"
+                               HeightRequest="55">
+                            <Grid ColumnDefinitions="Auto,*">
+                                <!-- Emoji de correo en lugar de imagen -->
+                                <Label Text="✉️" 
+                                       Style="{StaticResource EmojiStyle}"
+                                       Grid.Column="0" />
+
+                                <local:CustomEntry Placeholder="Usuario" 
+                                                  Style="{StaticResource RoundedEntryStyle}"
+                                                  Text="{Binding Email}" 
+                                                  Keyboard="Email"
+                                                  Grid.Column="1" />
+                            </Grid>
+                        </Frame>
+
+                        <!-- Campo de contraseña -->
+                        <Frame BackgroundColor="#1A2F4F" 
+                               CornerRadius="6" 
+                               Padding="0" 
+                               HasShadow="False" 
+                               BorderColor="#3889B5"
+                               HeightRequest="55">
+                            <Grid ColumnDefinitions="Auto,*">
+                                <!-- Emoji de candado en lugar de imagen -->
+                                <Label Text="🔒" 
+                                       Style="{StaticResource EmojiStyle}"
+                                       Grid.Column="0" />
+
+                                <local:CustomEntry Placeholder="Contraseña" 
+                                                  Style="{StaticResource RoundedEntryStyle}"
+                                                  IsPassword="True" 
+                                                  Text="{Binding Password}"
+                                                  Grid.Column="1" />
+                            </Grid>
+                        </Frame>
+
+                        <!-- Recordarme -->
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox Color="{StaticResource SecondaryBlue}" 
+                                      VerticalOptions="Center" 
+                                      IsChecked="True" />
+
+                            <Label Text="Recordarme" 
+                                   TextColor="{StaticResource SecondaryBlue}" 
+                                   VerticalOptions="Center"
+                                   Margin="5,0,0,0"
+                                   FontSize="16" />
+                        </StackLayout>
+
+                        <!-- Botón Iniciar Sesión -->
+                        <Button Text="INICIAR SESIÓN" 
+                                BackgroundColor="{StaticResource AccentPink}" 
+                                TextColor="White" 
+                                CornerRadius="6" 
+                                HeightRequest="55" 
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                Command="{Binding LoginCommand}" 
+                                Margin="0,15,0,0" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Footer con versión -->
+                <Label Text="© 2025 PrecisoGPS v1.7"
+                       TextColor="WhiteSmoke"
+                       Opacity="2.5"
+                       FontSize="20"
+                       HorizontalOptions="Center"
+                       VerticalOptions="EndAndExpand"
+                       Margin="0,20,0,0" />
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Indicador de carga profesional -->
+        <Grid IsVisible="{Binding IsBusy}"
+              BackgroundColor="#80001F3F">
+
+            <Frame BackgroundColor="#243A5E" 
+                   CornerRadius="8" 
+                   HasShadow="True" 
+                   WidthRequest="250" 
+                   HeightRequest="100" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"
+                   BorderColor="#3889B5">
+                <StackLayout Orientation="Horizontal" 
+                             VerticalOptions="Center" 
+                             HorizontalOptions="Center" 
+                             Spacing="20">
+                    <ActivityIndicator IsRunning="{Binding IsBusy}"
+                                      Color="{StaticResource AccentPink}"
+                                      HeightRequest="40"
+                                      WidthRequest="40" />
+
+                    <Label Text="Verificando acceso..."
+                          TextColor="White"
+                          FontSize="16"
+                          VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </Grid>
+</ContentPage>

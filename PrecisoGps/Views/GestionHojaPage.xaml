@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:PrecisoGps.ViewModels"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:behaviors="clr-namespace:PrecisoGps.Behaviors"
+             x:Class="PrecisoGps.Views.GestionHojaPage"
+             Title="Gestión de Hoja"
+             x:Name="HojaPageRef"
+             BackgroundColor="#EEF2F7">
+
+    <ContentPage.BindingContext>
+        <vm:GestionHojaViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <behaviors:NumericEntryBehavior x:Key="NumericEntryBehavior" />
+            <behaviors:HoraEntryBehavior x:Key="HoraEntryBehavior" />
+            <behaviors:DecimalEntryBehavior x:Key="DecimalEntryBehavior" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Padding="0,0,0,0" Spacing="0">
+
+            <!-- HEADER CON GRADIENTE -->
+            <Frame Padding="0" HasShadow="True" CornerRadius="0" Margin="0,0,0,20" HeightRequest="200">
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#4A6FEB" Offset="0.0" />
+                            <GradientStop Color="#6C63FF" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <StackLayout VerticalOptions="End" Padding="25,25" Spacing="10">
+                        <Label Text="Gestión de Hoja"
+                               FontSize="30"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               TextColor="White"/>
+                        <Label Text="{Binding Fecha, StringFormat='Fecha: {0}'}" 
+                               FontSize="18"
+                               TextColor="White"
+                               Opacity="0.95"/>
+                        <Label Text="{Binding TipoDia, StringFormat='Tipo: {0}'}" 
+                               FontSize="18"
+                               TextColor="White"
+                               Opacity="0.95"/>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+
+            <!-- CONTENIDO PRINCIPAL -->
+            <StackLayout Padding="20,0,20,25" Spacing="25">
+
+                <!-- RUTA Y CONDUCTOR -->
+                <Frame Padding="20" CornerRadius="15" HasShadow="True" BackgroundColor="White">
+                    <StackLayout Spacing="20">
+                        <!-- Ruta -->
+                        <StackLayout Spacing="10">
+                            <Label Text="Ruta" 
+                                   TextColor="#333333" 
+                                   FontAttributes="Bold" 
+                                   FontSize="17"/>
+                            <Picker Title="Seleccionar Ruta"
+                                    ItemsSource="{Binding Rutas}"
+                                    ItemDisplayBinding="{Binding nombre}"
+                                    SelectedItem="{Binding RutaSeleccionada}"
+                                    TextColor="#333333"
+                                    FontSize="16"
+                                    HeightRequest="50"/>
+                        </StackLayout>
+
+                        <!-- Conductor -->
+                        <StackLayout Spacing="10">
+                            <Label Text="Conductor" 
+                                   TextColor="#333333" 
+                                   FontAttributes="Bold" 
+                                   FontSize="17"/>
+                            <Picker Title="Seleccionar Conductor"
+                                    ItemsSource="{Binding Conductores}"
+                                    ItemDisplayBinding="{Binding nombre}"
+                                    SelectedItem="{Binding ConductorSeleccionado}"
+                                    TextColor="#333333"
+                                    FontSize="16"
+                                    HeightRequest="50"/>
+                        </StackLayout>
+
+                        <!-- Ayudante -->
+                        <StackLayout Spacing="10">
+                            <Label Text="Ayudante" 
+                                   TextColor="#333333" 
+                                   FontAttributes="Bold" 
+                                   FontSize="17"/>
+                            <Entry Placeholder="Nombre del Ayudante"
+                                   PlaceholderColor="#AAAAAA"
+                                   TextColor="#333333"
+                                   Text="{Binding AyudanteNombre}"
+                                   FontSize="16"
+                                   HeightRequest="50"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <!-- SECCIÓN DE PRODUCCIÓN -->
+                <StackLayout Spacing="10">
+                    <Label Text="PRODUCCIÓN DE VIAJES" 
+                          TextColor="#4A6FEB" 
+                          FontSize="16"
+                          FontAttributes="Bold"
+                          Margin="10,0,0,5"/>
+
+                    <!-- Lista de vueltas con Expanders -->
+                    <StackLayout BindableLayout.ItemsSource="{Binding ProduccionesVisibles}" Spacing="12">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <xct:Expander Margin="0,0,0,8">
+                                    <xct:Expander.Header>
+                                        <Frame CornerRadius="15"
+                                               Padding="18"
+                                               BackgroundColor="White"
+                                               HasShadow="True">
+                                            <Grid ColumnSpacing="15">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <!-- Información de vuelta -->
+                                                <Label Grid.Column="0"
+                                                       Text="{Binding nro_vuelta, StringFormat='Vuelta #{0}'}"
+                                                       FontAttributes="Bold"
+                                                       TextColor="#333333"
+                                                       VerticalOptions="Center"
+                                                       FontSize="16"/>
+
+                                                <Label Grid.Column="1"
+                                                       Text="{Binding valor_vuelta, StringFormat='${0}'}"
+                                                       VerticalOptions="Center"
+                                                       HorizontalOptions="End"
+                                                       TextColor="#4A6FEB"
+                                                       FontSize="18"
+                                                       FontAttributes="Bold"/>
+
+                                                <Label Grid.Column="2" 
+                                                       Text="↓" 
+                                                       FontSize="20" 
+                                                       TextColor="#AAAAAA"
+                                                       VerticalOptions="Center" 
+                                                       FontAttributes="Bold"/>
+                                            </Grid>
+                                        </Frame>
+                                    </xct:Expander.Header>
+
+                                    <!-- Contenido expandible -->
+                                    <Frame BackgroundColor="White"
+                                           CornerRadius="15"
+                                           Padding="20"
+                                           Margin="5,0,5,5"
+                                           HasShadow="True">
+                                        <StackLayout Spacing="15">
+                                            <!-- Hora inicio -->
+                                            <StackLayout Spacing="10">
+                                                <Label Text="Hora de inicio" 
+                                                   FontAttributes="Bold" 
+                                                   TextColor="#333333"
+                                                   FontSize="16" />
+                                                <Entry Text="{Binding HoraSubidaEntry}"
+                                                   TextColor="#333333"
+                                                   BackgroundColor="White"
+                                                   Placeholder="HH:mm"
+                                                   PlaceholderColor="#AAAAAA"
+                                                   FontSize="16"
+                                                   HeightRequest="45"
+                                                   Keyboard="Numeric"
+                                                   IsReadOnly="{Binding ReadOnly}">
+                                                    <Entry.Behaviors>
+                                                        <behaviors:HoraEntryBehavior />
+                                                    </Entry.Behaviors>
+                                                </Entry>
+                                            </StackLayout>
+
+                                            <!-- Hora fin -->
+                                            <StackLayout Spacing="10">
+                                                <Label Text="Hora de fin" 
+                                                   FontAttributes="Bold" 
+                                                   TextColor="#333333"
+                                                   FontSize="16" />
+                                                <Entry Text="{Binding HoraBajadaEntry}"
+                                                   TextColor="#333333"
+                                                   BackgroundColor="White"
+                                                   Placeholder="HH:mm"
+                                                   PlaceholderColor="#AAAAAA"
+                                                   FontSize="16"
+                                                   HeightRequest="45"
+                                                   Keyboard="Numeric"
+                                                   IsReadOnly="{Binding ReadOnly}">
+                                                    <Entry.Behaviors>
+                                                        <behaviors:HoraEntryBehavior />
+                                                    </Entry.Behaviors>
+                                                </Entry>
+                                            </StackLayout>
+                                            <!-- Valor vuelta -->
+                                            <StackLayout Spacing="10">
+                                                <Label Text="Valor de vuelta" 
+                                                       FontAttributes="Bold" 
+                                                       TextColor="#333333"
+                                                       FontSize="16" />
+                                                <Entry Text="{Binding valor_vuelta}"
+                                                       TextColor="#333333"
+                                                       BackgroundColor="White"
+                                                       Placeholder="0.00"
+                                                       PlaceholderColor="#AAAAAA"
+                                                       FontSize="16"
+                                                       HeightRequest="45"
+                                                       IsReadOnly="{Binding ReadOnly}"
+                                                       Keyboard="Numeric">
+                                                    <Entry.Behaviors>
+                                                        <behaviors:DecimalEntryBehavior />
+                                                    </Entry.Behaviors>
+                                                </Entry>
+                                            </StackLayout>
+
+                                            <!-- BOTÓN GUARDAR VUELTA en lugar de Quitar Vuelta -->
+                                            <Button Text="Guardar Vuelta"
+                                                    BackgroundColor="#FF9800"
+                                                    TextColor="White"
+                                                    CornerRadius="20"
+                                                    HeightRequest="45"
+                                                    FontSize="16"
+                                                    IsVisible="{Binding Editable}"
+                                                    Command="{Binding BindingContext.GuardarVueltaCommand, Source={x:Reference HojaPageRef}}" />
+                                        </StackLayout>
+                                    </Frame>
+                                </xct:Expander>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
+
+                    <!-- BOTÓN AÑADIR VUELTA -->
+                    <Button Text="+ AÑADIR VUELTA"
+                            BackgroundColor="#4A6FEB"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            Command="{Binding AgregarVueltaCommand}"
+                            Margin="0,10,0,10" />
+                </StackLayout>
+
+                <!-- SECCIÓN DE GASTOS -->
+                <StackLayout Spacing="10">
+                    <Label Text="REGISTRO DE GASTOS" 
+                          TextColor="#4A6FEB" 
+                          FontSize="16"
+                          FontAttributes="Bold"
+                          Margin="10,0,0,5"/>
+
+                    <CollectionView ItemsSource="{Binding Gastos}" Margin="0,0,0,10">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Vertical" ItemSpacing="15" />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="20"
+                                       CornerRadius="15"
+                                       HasShadow="True"
+                                       BackgroundColor="White">
+                                    <StackLayout Spacing="15">
+                                        <!-- Título del gasto -->
+                                        <Label Text="{Binding tipo_gasto}"
+                                               FontAttributes="Bold"
+                                               TextColor="#333333"
+                                               FontSize="18" />
+
+                                        <!-- Valor del gasto -->
+                                        <StackLayout Spacing="10">
+                                            <Label Text="Valor" 
+                                                   FontAttributes="Bold" 
+                                                   TextColor="#333333"
+                                                   FontSize="16" />
+                                            <Entry Placeholder="Valor del gasto"
+                                                   PlaceholderColor="#AAAAAA"
+                                                   Text="{Binding valor}"
+                                                   TextColor="#333333"
+                                                   BackgroundColor="White"
+                                                   Keyboard="Numeric"
+                                                   FontSize="16"
+                                                   HeightRequest="45"
+                                                   IsEnabled="{Binding Editable}">
+                                                <Entry.Behaviors>
+                                                    <behaviors:DecimalEntryBehavior />
+                                                </Entry.Behaviors>
+                                            </Entry>
+                                        </StackLayout>
+
+                                        <!-- Sección de imagen - BOTÓN DIRECTO Y SIMPLE -->
+                                        <StackLayout IsVisible="{Binding MostrarImagen}" Spacing="15">
+                                            <Button Text="Seleccionar Imagen"
+                                                    Command="{Binding BindingContext.SeleccionarImagenCommand, Source={x:Reference HojaPageRef}}"
+                                                    CommandParameter="{Binding .}"
+                                                    IsEnabled="{Binding Editable}"
+                                                    BackgroundColor="#FF9800"
+                                                    TextColor="White"
+                                                    CornerRadius="20"
+                                                    HeightRequest="45"
+                                                    FontSize="16"
+                                                    Margin="0,0,0,5" />
+
+                                            <!-- Marco para imagen con esquinas redondeadas -->
+                                            <Frame CornerRadius="10" 
+                                                   Padding="0" 
+                                                   IsClippedToBounds="True" 
+                                                   HasShadow="True"
+                                                   BorderColor="Transparent"
+                                                   HeightRequest="150">
+                                                <Image Source="{Binding ImagenPreview}" 
+                                                       Aspect="AspectFill" />
+                                            </Frame>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+
+                <!-- BOTÓN GUARDAR CAMBIOS - PERMANECE IGUAL -->
+                <Button Text="GUARDAR CAMBIOS"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        CornerRadius="25"
+                        HeightRequest="60"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        Command="{Binding GuardarCommand}"
+                        Margin="0,10,0,10" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
